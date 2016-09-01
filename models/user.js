@@ -8,7 +8,7 @@ var password_validation = {
         return this.password_confirmation == p;
     },
     message: "Las contraseñas no coinciden"
-}
+};
 var user_schema = new Schema({
     name: String,
     last_name: String,

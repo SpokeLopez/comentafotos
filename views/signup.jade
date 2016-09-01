@@ -3,7 +3,7 @@ block contenido
     div(class="col-md-8 remove-float center-block text-center big-top-space")
         form(action="/signup",method="POST")
             div(class="form-group")
-                label(for="name") Nombres
+                label(for="name") Nombre (s)
                 input(type="text",name="name",id="name",placeholder="Nombres completos",class="form-control")
             div(class="form-group")
                 label(for="lastname") Apellidos
@@ -15,7 +15,7 @@ block contenido
                 label(for="date") Fecha de Nacimiento
                 input(type="date",class="form-control",id="date",name="date")
             div(class="form-group")
-                label(for="sex") Genero
+                label(for="sex") Sexo
                 select(id="sex",name="sex",class="form-control")
                     option(value="M") Mujer
                     option(value="H") Hombre

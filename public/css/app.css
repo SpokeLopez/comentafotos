@@ -1,3 +1,6 @@
+body{
+	background-color: #F8EDE5;
+}
 .right-space{
     margin-right: 1em;
 }
@@ -14,19 +17,21 @@
 	padding: 10px 15px;
 }
 .black{
-	background-color: #222;
+	background-color: #0E2A1C;
 }
 .white-text{
 	color: white;
 }
 nav{
 	text-align: right;
-	font-size: 18px;
+	font-size: 15px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+
 }
 nav li{
 	display: inline-block;
 	margin-right: 1em;
-	font-size: 28px;
+	font-size: 18px;
 }
 .nav{
 	color: #D3E1F4;
@@ -56,5 +61,12 @@ form.link input[type="submit"]{
 	background-color: #FEFDFD;
 	border:none;
 	color: tomato;
-	
+}
+.titulo{	
+	color: #0E2521;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-decoration: underline;
+}
+.titulo:hover{
+	text-decoration: none;
 }
